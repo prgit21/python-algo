@@ -18,3 +18,6 @@
             
             
        
+4. When you have to print 4/5 on min and max,sort and print sum 🤯
+    - arr = sorted(arr)
+    print(sum(arr[:-1]),sum(arr[1:]))
