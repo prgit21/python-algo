@@ -21,3 +21,11 @@
 4. When you have to print 4/5 on min and max,sort and print sum 🤯
     - arr = sorted(arr)
     print(sum(arr[:-1]),sum(arr[1:]))
+
+
+5. Split number into digits
+    -my_int = 13579
+
+    my_list = [int(x) for x in str(my_int)]
+
+    print(my_list)  # 👉️ [1, 3, 5, 7, 9]
