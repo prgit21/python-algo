@@ -24,6 +24,7 @@
 
 
 5. Split number into digits
+    
     -my_int = 13579
 
     my_list = [int(x) for x in str(my_int)]
