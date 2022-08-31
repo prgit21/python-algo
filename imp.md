@@ -34,3 +34,9 @@
     
 6. Reverse int
     rev=(str(x)[::-1]) 
+    
+    or while num != 0:
+    digit = num % 10
+    reversed_num = reversed_num * 10 + digit
+    num //= 10
+
