@@ -1,0 +1,17 @@
+class Solution:
+    def reverse(self, x: int) -> int:
+        if(x> 2147483647 or x < -2147483648):
+            return "0"
+        strx=str(x)
+        ret=0
+        if (strx=="0"):
+            return "0"
+        if strx[0]=="-":
+            #neg=True
+            x2=strx.strip("-")
+            ret=int("-"+x2[::-1].lstrip("0"))
+        else:
+            ret=int(strx[::-1].lstrip("0"))
+        if(ret> 2147483647 or ret < -2147483648):
+            return "0"
+        return ret
