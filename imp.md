@@ -40,3 +40,5 @@
     reversed_num = reversed_num * 10 + digit
     num //= 10
 
+
+6. Using fabs,// and floor div
